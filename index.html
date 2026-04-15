@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>12 Grado - Bachillerato Tecnico Profesional en Informatica</title>
+<link href="index.css" rel="stylesheet" type="text/css">
+	
+</head>
+<body>
+
+  <div id="bienvenida">
+	<img src="Imagenes/logo.info.png" alt="Logo Carrera" class="bienvenida-logo-img">
+	  
+    <p class="bienvenida-logo">Bachillerato Tecnico Profesional en Informatica</p>
+    <h1 class="bienvenida-titulo">Bienvenido al sitio web del <br><span>Doceavo Grado</span></h1>
+    <p class="bienvenida-texto">Este sitio presenta el <strong>Bachillerato Tecnico Profesional en Informatica</strong> del Instituto Gubernamental Polivalente <strong>Roberto Micheletti Bain</strong>.</p>
+    <p class="bienvenida-año">Doceavo Grado - 2026 - Honduras</p>
+    <button class="boton-entrar" onclick="entrar()">Entrar al Sitio</button>
+  </div>
+
+  <div id="sitio">
+	  
+	
+ <div class="menu">
+        <div class="menu-marca">
+            <img src="Imagenes/logo.carrera.png" alt="Logo BTP Informática" class="logo-nav">
+            <div class="menu-logo">BTPI 12</div>
+        </div>
+	 
+      <ul class="menu-lista">
+        <li><a href="index.html" class="activo">Inicio</a></li>
+        <li><a href="materias.html">Materias</a></li>
+        <li><a href="docentes.html">Docentes</a></li>
+		 <li><a href="curso.html">Nuestro Curso</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+
+    <div class="portada">
+      <p class="portada-sub">Instituto Gubernamental Polivalente</p>
+      <h1 class="portada-titulo">Roberto Micheletti Bain</h1>
+      <p class="portada-curso">Bachillerato Tecnico Profesional en Informatica</p>
+      <p class="portada-año">Doceavo Grado - PROMO 2026</p>
+    </div>
+
+
+<section class="intro-seccion">
+    <div class="contenedor-intro">
+        <span class="subtitulo-rojo">¿Quiénes somos?</span>
+        <h2>Un equipo unido por la tecnología</h2>
+        <p>
+            Somos los estudiantes de <strong>Doceavo Grado de Informática</strong> del Instituto Roberto Micheletti Baín. 
+            Más que un curso, somos un grupo comprometido con la innovación y el soporte técnico. 
+            Nos apasiona resolver problemas complejos, trabajar en equipo y prepararnos para los retos del mundo digital.
+        </p>
+        <div class="frase-motivadora">
+            "Innovar es nuestra meta, el código nuestro lenguaje."
+        </div>
+    </div>
+</section>
+      
+  
+
+    <div class="pie">
+      <p>2026 - Instituto Gubernamental Polivalente Roberto Micheletti Bain</p>
+      <p>Bachillerato Tecnico Profesional en Informatica - 12 Grado</p>
+    </div>
+
+ 
+
+  <script>
+    function entrar() {
+      document.getElementById('bienvenida').style.display = 'none';
+      document.getElementById('sitio').style.display = 'block';
+    }
+  </script>
+	
+	</div>
+
+</body>
+</html>
